@@ -21,3 +21,14 @@
         color: @bg-color;
     }
 }
+
+.phone-img() {
+    @media @phone {
+        width: 100%;
+        margin: 20px 5%;
+        // only display first image for phone
+        &:not(:first-child) {
+            display: none;
+        }
+    }
+}
