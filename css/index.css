@@ -185,6 +185,11 @@ nav .links {
   align-items: stretch;
   flex-wrap: nowrap;
 }
+@media (max-width: 500px) {
+  nav .links {
+    width: 75%;
+  }
+}
 nav .links a {
   text-decoration: none;
   color: #454A59;
@@ -204,6 +209,14 @@ footer {
 }
 .home .intro p {
   padding: 0 15px;
+}
+.home .intro img {
+  border-radius: 0.3rem;
+}
+@media (max-width: 500px) {
+  .home .intro img {
+    border-radius: 0.5rem;
+  }
 }
 .home .space-images {
   display: flex;
