@@ -1,8 +1,12 @@
 
 nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: @nav-height;
     margin: 0 auto;
     padding: 15px 0;
-    background-color: @nav-bg;
+    background-color: fade(@nav-bg, 85%);
     border-bottom: 2px solid @nav-border;
     .flex(center, center, column);
 
